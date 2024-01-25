@@ -1,12 +1,16 @@
 {
-  "name": "vue-hcrypt",
-  "version": "1.0.0",
-  "description": "vue encrypt with AES mode",
+  "name": "kz-cript",
+  "version": "1.0.1",
+  "description": "encrypt decrypt javascript",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["encrypt", "decrypt", "crypto", "encrypt-javascript"],
   "author": "mhavid",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  }
 }

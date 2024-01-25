@@ -1,0 +1,1 @@
+import CryptoJS from"crypto-js";export class HCrypt{decrypt(r,t){try{return CryptoJS.AES.decrypt(r,t).toString(CryptoJS.enc.Utf8)}catch(r){console.error(r)}}encrypt(r,t){try{return CryptoJS.AES.encrypt(JSON.stringify(r),t).toString()}catch(r){console.error(r)}}}
